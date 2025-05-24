@@ -26,8 +26,9 @@ This is a simple PHP-based movie search application that uses the [OMDb API](htt
 ## Setup Instructions
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/Sidney-Dev/imdb_movie.git
+```
 
 ### 2. Enter directory
 cd imdb_movie
