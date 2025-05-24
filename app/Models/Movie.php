@@ -19,7 +19,7 @@ class Movie extends Model
             'plot' => $data['plot'],
             'poster' => $data['poster'],
             'rating' => $data['rating'],
-            'released' => $data['release'],
+            'released' => $data['released'],
             'imdb_id' => $data['imdbID'],
             'movie_code' => $code,
         ]);

@@ -81,9 +81,9 @@ class MovieController
         $data = Request::input();
 
         // Parse release date
-        if (!empty($data['release'])) {
-            $timestamp = strtotime($data['release']);
-            $data['release'] = $timestamp !== false ? date('Y-m-d', $timestamp) : null;
+        if (!empty($data['released'])) {
+            $timestamp = strtotime($data['released']);
+            $data['released'] = $timestamp !== false ? date('Y-m-d', $timestamp) : null;
         }
 
         $movie = new Movie();
