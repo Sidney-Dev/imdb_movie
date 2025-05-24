@@ -31,20 +31,29 @@ git clone https://github.com/Sidney-Dev/imdb_movie.git
 ```
 
 ### 2. Enter directory
+```bash
 cd imdb_movie
+```
 
 ### 3. Copy environment file
+```bash
 cp .env-example .env
-
+```
 Replace all the credentials for your own
 
 Create a new MySQL database that matches the name in your .env
 
 ### 4. Run composer
+```bash
 composer install
+```
 
 ### 5. Run run migrations
+```bash
 php migrate.php
+```
 
 ### 6. Start the application
+```bash
 php -S localhost:8000 -t public
+```
